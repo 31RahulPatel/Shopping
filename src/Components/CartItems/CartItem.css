@@ -1,0 +1,126 @@
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height: 62px;
+
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+} 
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin-right: 200px;
+    gap: 40px;
+
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    
+
+}
+.cartitems-total button{
+    width: 262px;
+    
+    height: 58px;
+    background: #ff5a5a;
+    border: none;
+    outline: none;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.cartitems-promocode{
+    margin-top: 60px;
+    text-align: center;
+    background: #e9e7e2;
+    padding: 20px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #1f1c18;
+    
+}
+.cartitems-promocode p{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    background: #fb3b3b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+.cartitems-promobox input{
+    width: 160px;
+    margin-left: 30px;
+    background: none;
+    height: 20px;
+    border:none;
+    outline: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    
+
+}
+.cartitems-promobox{
+    border: 2.5px solid black;
+    border-radius: 10px;
+}
+.cartitems-promobox button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 65px;
+    border: 2.27px solid black;
+}
+.cartitems-promobox button:hover{
+    color: #fff;
+    background: #ff3b3b;
+}
